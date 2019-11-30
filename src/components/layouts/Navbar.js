@@ -6,11 +6,12 @@ export class Navbar extends Component {
     icon: 'fab fa-github'
   };
 
+  //FIXME: need to fix font awesome icon
   render() {
     return (
       <nav className='navbar bg-primary'>
         <h1>
-          <i class={this.props.icon} /> {this.props.title}
+          {this.props.icon} {this.props.title}
         </h1>
       </nav>
     );

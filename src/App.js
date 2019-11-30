@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import Navbar from './components/layouts/Navbar';
+import UserItems from './components/users/UserItems';
 import './App.css';
 
 class App extends React.Component {
   render() {
-    const name = 'John Doe';
-
     return (
       <div className='App'>
-        <Navbar />
+        <Navbar icon='fab fa-github' />
+        <UserItems />
       </div>
     );
   }
