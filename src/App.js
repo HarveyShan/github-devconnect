@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Navbar from './components/layouts/Navbar';
 import './App.css';
 
 class App extends React.Component {
@@ -6,9 +7,8 @@ class App extends React.Component {
     const name = 'John Doe';
 
     return (
-      <div className="App">
-        <h1>Hello {name.toUpperCase()}</h1>
-        <h2> Goodbye</h2>
+      <div className='App'>
+        <Navbar />
       </div>
     );
   }
